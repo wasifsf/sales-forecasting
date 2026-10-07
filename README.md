@@ -1,10 +1,23 @@
 # Dataset
 
-Place the IBM Telco Customer Churn CSV in this folder with the filename:
+Place your permitted monthly sales dataset here as:
 
-`WA_Fn-UseC_-Telco-Customer-Churn.csv`
+`monthly_sales.csv`
 
-Dataset source:
-https://github.com/IBM/telco-customer-churn-on-icp4d/blob/master/data/Telco-Customer-Churn.csv
+Required columns:
 
-The raw dataset is not included in this repository to keep the repository lightweight and to respect dataset redistribution considerations.
+- `Date`
+- `Sales`
+
+Example:
+
+```csv
+Date,Sales
+2025-01-01,12500
+2025-02-01,13100
+2025-03-01,14200
+```
+
+Do not upload confidential company/internship data to a public GitHub repository.
+
+For a public portfolio repository, use a public dataset or anonymized/synthetic data that you are allowed to redistribute.
